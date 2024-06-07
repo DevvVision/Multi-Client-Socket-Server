@@ -4,8 +4,8 @@ import subprocess
 import pyautogui
 import threading
 s=socket.socket()
-host="192.168.1.34"
-port=9999
+host="XXX.XXX.XX.X" #Host Ip address
+port="XXXX" #port number 
 s.connect((host,port))
 def sendMsg():
 	try:
